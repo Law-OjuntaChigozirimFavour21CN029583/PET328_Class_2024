@@ -12,6 +12,8 @@ def classify_block (i, j, nx, ny):
     else:
          block_cat = 'I'
     return block_cat
+    return classify_block
+    
 
         
 
